@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 90%;
+    background-color: #DEB887;
+    padding: 30px;
+    margin: auto;
+}
+.container h3,h4,p{
+    text-align: center;
+    margin: 5px;
+}
+.text_element, .check_box, .district, .btn{
+    margin: 10px;
+    padding: 10px;
+}
+.btn{
+    font: 14px sans-serif;
+    color: #FFFFFF;
+    background-color: #8D6633;
+    font-size: 15px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+input{
+    margin: 2px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    outline: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.submitMsg{ 
+    color: rgb(67, 43, 107);
+}
+.wrapper{ 
+    width: 350px;
+    padding: 20px;
+}
